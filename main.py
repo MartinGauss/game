@@ -5,7 +5,7 @@ user_number = None
 count = 0
 levels = {1: 10, 2: 5, 3: 3}
 
-difficulty = int(input('Select difficulty: '))
+difficulty = int(input('Select difficulty where 1 is easy mode, 2 is medium mode and 3 is hard mode'))
 max_count = levels[difficulty]
 
 user_count = int(input('Enter a number of users: '))
