@@ -38,5 +38,3 @@ while not is_winner:
             print('The digit is more')
 else:
     print(f'The winner is {winner_name}')
-
-
